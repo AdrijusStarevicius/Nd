@@ -5,7 +5,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* HEADER */
+
 header {
     background: #8ba30b;
     padding: 12px 0;
@@ -46,7 +46,7 @@ header {
     cursor: pointer;
 }
 
-/* LAYOUT FLEX */
+
 .layout {
     max-width: 1200px;
     margin: 30px auto;
@@ -54,7 +54,7 @@ header {
     gap: 40px;
 }
 
-/* CONTENT */
+
 .content {
     flex: 3;
 }
@@ -69,7 +69,7 @@ header {
     margin-top: 10px;
 }
 
-/* 4 CARDS APAČIOJE */
+
 .articles {
     display: flex;
     flex-wrap: wrap;
@@ -93,7 +93,7 @@ header {
     text-decoration: none;
 }
 
-/* SIDEBAR */
+
 .sidebar {
     flex: 1;
 }
@@ -111,3 +111,4 @@ header {
     margin: 8px 0;
     color: #8ba30b;
 }
+
