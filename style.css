@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background: #000;
+    color: #ddd;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+header {
+    background: #8ba30b;
+    padding: 12px 0;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.search input {
+    padding: 6px;
+    border: none;
+}
+
+.search button {
+    padding: 6px 12px;
+    border: none;
+    background: #333;
+    color: white;
+    cursor: pointer;
+}
+
+/* LAYOUT FLEX */
+.layout {
+    max-width: 1200px;
+    margin: 30px auto;
+    display: flex;
+    gap: 40px;
+}
+
+/* CONTENT */
+.content {
+    flex: 3;
+}
+
+.hero img {
+    width: 100%;
+    border: 4px solid #8ba30b;
+}
+
+.desc {
+    color: #8ba30b;
+    margin-top: 10px;
+}
+
+/* 4 CARDS APAČIOJE */
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.card {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+}
+
+.card img {
+    width: 100%;
+    border: 4px solid #8ba30b;
+}
+
+.card a {
+    color: #8ba30b;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* SIDEBAR */
+.sidebar {
+    flex: 1;
+}
+
+.side-card {
+    margin-bottom: 25px;
+}
+
+.side-card img {
+    width: 100%;
+    border: 4px solid #8ba30b;
+}
+
+.side-card h4 {
+    margin: 8px 0;
+    color: #8ba30b;
+}
